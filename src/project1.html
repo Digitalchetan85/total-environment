@@ -1,0 +1,855 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Assentz</title>
+
+
+    <link rel="stylesheet" href="./countrycode/css/intlTelInput.min.css">
+
+
+    <!-- build:css css/main.min.css  -->
+    <link rel="stylesheet" href="./scss/main.css">
+    <!-- endbuild -->
+
+    <link rel="stylesheet" href="t-slider/css/jquery.bxslider.css" type="text/css" />
+    <link rel="stylesheet" href="spot-light/style.css">
+    <link rel="stylesheet" href="spot-light/theme.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+
+
+    <link rel="icon" href="./images/fav.png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+
+
+    <div id="main-header" class="sticky-top shadow">
+        <div id="top-header" class="p-2 p-md-1 bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 d-none d-md-block align-self-center fw-bold">
+                        <i class="fa fa-map-marker-alt"></i> Whitefield, Bangalore.
+                    </div>
+                    <div class="col-md-4 align-self-center">
+                        <div class="text-center">
+                            <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal"><i
+                                    class="fa fa-spinner fa-flip fa-download"></i> Brochure</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 align-self-center">
+                        <div class="text-center">
+                            <a href="tel:+918095999000" class="anchor btn btn-dark text-white m-1"><i
+                                    class="fa fa-phone-volume"></i> +91-80959 99000</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header class="header-transparent">
+            <div class="menu-header">
+                <div class="">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                        <div class="container">
+                            <a class="navbar-brand" href="/"><img src="./images/logo-1.png" alt=""></a>
+                            <!-- <a class="btn btn-primary text-white d-block d-md-none" href="tel:8095999000"><i
+                                class="fa fa-phone-volume"></i> 8095999000</a> -->
+                            <!-- <a href="#all-virtual-tour" class="d-block d-md-none"><img src="./images/360.png" alt=""
+                                    class="img-fluid"></a> -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                                <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#overview">Overview</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#master-plan">Master Plan</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#master-plan">Floor Plan</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#amenities">Amenities</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#pricing">Pricing</a>
+                                    </li>
+                                    <li class="nav-item border-0">
+                                        <a class="nav-link" href="#about-developer">About Developer</a>
+                                    </li>
+                                    <!-- <li class="nav-item border border-dark rounded">
+                                        <a class="nav-link float-end" data-bs-toggle="modal" data-bs-target="#modal"><i class="fas fa-flash fa-download"></i> Brochure</a>
+                                    </li> -->
+                                    <!-- <li class="nav-item">
+                                        <a class="btn btn-danger text-white" href="tel:08095999000">call +91 80959 99000</a>
+                                    </li> -->
+                                </ul>
+                                <div class="d-flex">
+                                    <a href="#virtual-tour"><img src="./images/360.png" alt=""
+                                            class="img-fluid bg-white p-2 rounded"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div id="slider">
+        <div class="owl-carousel owl-theme" id="main-slider">
+            <div class="item">
+                <div class="spotlight-group text-center m-1">
+                    <a class="spotlight" href="./images/slider/avalon-park/avalon-park-4.png"
+                        data-description="Location Map"><img src="./images/slider/avalon-park/avalon-park-4.png"
+                            alt="Location Map" class="thumb-1 rounded img-fluid"></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="spotlight-group text-center m-1">
+                    <a class="spotlight" href="./images/slider/avalon-park/avalon-park-3.png"
+                        data-description="Location Map"><img src="./images/slider/avalon-park/avalon-park-3.png"
+                            alt="Location Map" class="thumb-1 rounded img-fluid"></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="spotlight-group text-center m-1">
+                    <a class="spotlight" href="./images/slider/avalon-park/avalon-park-1.png"
+                        data-description="Location Map"><img src="./images/slider/avalon-park/avalon-park-1.png"
+                            alt="Location Map" class="thumb-1 rounded img-fluid"></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="spotlight-group text-center m-1">
+                    <a class="spotlight" href="./images/slider/avalon-park/avalon-park-2.png"
+                        data-description="Location Map"><img src="./images/slider/avalon-park/avalon-park-2.png"
+                            alt="Location Map" class="thumb-1 rounded img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pt-3 pb-3 pt-md-5 pb-md-5 bg-light">
+        <div class="container bg-white shadow p-3">
+            <div class="row justify-content-center">
+                <div class="col-md-4 bg-dark align-self-center pt-5 pb-5">
+                    <div class="text-center">
+                        <img src="./images/logo-1.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="m-1">
+                                <h2 class="text-center text-md-start">ASSETZ MARQ 3.0</h2>
+                                <p class="text-center text-md-start">Whitefield, Bangalore</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="">
+                                <a href=""
+                                    class="btn btn-dark text-uppercase ps-5 pe-5 pt-2 pb-2 m-1 float-start float-md-start"
+                                    data-bs-toggle="modal" data-bs-target="#modal">1.10 Cr Onwards</a>
+                                <a href=""
+                                    class="btn btn-warning float-start float-md-end text-uppercase ps-5 pe-5 pt-2 pb-2 m-1"
+                                    data-bs-toggle="modal" data-bs-target="#modal">Download Brochure</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="" id="all-items">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9">
+                    <div id="overview" class="pt-3 pb-3 pt-md-5 pb-md-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <div class="line position-relative">
+                                        <h2 class="text-uppercase pb-2">Project Highlights</h2>
+                                        <span class="bg-danger position-absolute start-50 span-line"></span>
+                                    </div>
+                                    <div class="">
+                                        <table class="table table-bordered">
+                                            <tbody>
+                                                <tr>
+                                                    <th>RERA No</th>
+                                                    <td>PR/210928/004316</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Development Size</th>
+                                                    <td>22 Acres
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Towers</th>
+                                                    <td>2 Towers</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Floors</th>
+                                                    <td>B + 2P + 27</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Bedrooms</th>
+                                                    <td>
+                                                        3, 4 </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="all" class="pt-3 pb-3 pt-md-5 pb-md-5 bg-light">
+                        <div class="container">
+                            <h2 class="text-center pt-2 pb-2">WHY ASSETZ MARQ</h2>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>Constructed by Shapoorji & Pallonji – Who has 150 Years of Experience in
+                                            Construction Sector – So you are sure of the Quality of your Dream Home</li>
+                                        <li>Highest Carpet Area in Bangalore – 78%</li>
+                                        <li>Main Road Development, Marq has well connectivity</li>
+                                        <li>In-House School & Retails for a Hassle free Life</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>Walkin Wardrobe & Tucked in Wardrobe for better space</li>
+                                        <li>6 Acres of Park</li>
+                                        <li>80% Open Space</li>
+                                        <li>30 % Green Space</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="master-plan" class="pt-3 pb-3 pt-md-0 pb-md-0">
+                        <div class="container-fluid">
+                            <h2 class="pt-2 pb-2 text-center">Master Plan & Floor Plans</h2>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="nav nav-tabs" id="myTab1" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link text-dark active" id="home-tab" data-bs-toggle="tab"
+                                                href="#home1" role="tab" aria-controls="home"
+                                                aria-selected="true">All</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link text-dark" id="profile-tab1" data-bs-toggle="tab"
+                                                href="#profile1" role="tab" aria-controls="profile1"
+                                                aria-selected="false">Master Plan</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link text-dark" id="contact-tab1" data-bs-toggle="tab"
+                                                href="#contact1" role="tab" aria-controls="contact1"
+                                                aria-selected="false">3BHK</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link text-dark" id="contact-tab1" data-bs-toggle="tab"
+                                                href="#contact2" role="tab" aria-controls="contact2"
+                                                aria-selected="false">4BHK</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content mt-3" id="myTabContent1">
+                                        <div class="tab-pane fade show active" id="home1" role="tabpanel"
+                                            aria-labelledby="home-tab1">
+                                            <div id="master-plan" class="pt-3 pb-3 pt-md-5 pb-md-5">
+                                                <div class="container">
+                                                    <div class="row justify-content-center">
+                                                        
+                                                        <div class="col-md-4">
+                                                            <div class="spotlight-group text-center m-1">
+                                                                <a class="spotlight"
+                                                                    href="./images/floor-plans/master-plan-01.png"
+                                                                    data-description="Location Map"><img
+                                                                        src="./images/floor-plans/master-plan-01.png"
+                                                                        alt="Location Map"
+                                                                        class="thumb-1 rounded img-fluid"></a>
+                                                                        <h6 class="fw-bold text-center pt-2 pb-2">Master Plan</h6>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4">
+                                                            <div class="spotlight-group text-center m-1">
+                                                                <a class="spotlight"
+                                                                    href="./images/floor-plans/floor-plan-2.png"
+                                                                    data-description="Location Map"><img
+                                                                        src="./images/floor-plans/floor-plan-2.png"
+                                                                        alt="Location Map"
+                                                                        class="thumb-1 rounded img-fluid"></a>
+                                                                <h6 class="fw-bold text-center pt-2 pb-2">3BHK (3B - 3T)</h6>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4">
+                                                            <div class="spotlight-group text-center m-1">
+                                                                <a class="spotlight"
+                                                                    href="./images/floor-plans/floor-plan-3.png"
+                                                                    data-description="Location Map"><img
+                                                                        src="./images/floor-plans/floor-plan-3.png"
+                                                                        alt="Location Map"
+                                                                        class="thumb-1 rounded img-fluid"></a>
+                                                                <h6 class="fw-bold text-center pt-2 pb-2">3BHK (3B - 3T)</h6>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4">
+                                                            <div class="spotlight-group text-center m-1">
+                                                                <a class="spotlight"
+                                                                    href="./images/floor-plans/floor-plan-4.png"
+                                                                    data-description="Location Map"><img
+                                                                        src="./images/floor-plans/floor-plan-4.png"
+                                                                        alt="Location Map"
+                                                                        class="thumb-1 rounded img-fluid"></a>
+                                                                <h6 class="fw-bold text-center pt-2 pb-2">3BHK (3B - 2T)</h6>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4">
+                                                            <div class="spotlight-group text-center m-1">
+                                                                <a class="spotlight"
+                                                                    href="./images/floor-plans/floor-plan-1.png"
+                                                                    data-description="Location Map"><img
+                                                                        src="./images/floor-plans/floor-plan-1.png"
+                                                                        alt="Location Map"
+                                                                        class="thumb-1 rounded img-fluid"></a>
+                                                                <h6 class="fw-bold text-center pt-2 pb-2">4BHK (3B - 3T + Studio)</h6>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="text-center pt-3">
+                                                            <a href=""
+                                                                class="btn btn-primary text-uppercase ps-5 pe-5 pt-2 pb-2"
+                                                                data-bs-toggle="modal" data-bs-target="#modal">enquire
+                                                                now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="profile1" role="tabpanel1"
+                                            aria-labelledby="profile-tab">
+                                            <div id="master-plan" class="pt-3 pb-3 pt-md-5 pb-md-5">
+                                                <div class="container">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-md-6">
+                                                            <div class="spotlight-group text-center m-1">
+                                                                <a class="spotlight"
+                                                                    href="./images/floor-plans/master-plan-01.png"
+                                                                    data-description="Location Map"><img
+                                                                        src="./images/floor-plans/master-plan-01.png"
+                                                                        alt="Location Map"
+                                                                        class="thumb-1 rounded img-fluid"></a>
+                                                                        <h6 class="fw-bold text-center pt-2 pb-2">Master Plan</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="text-center pt-3">
+                                                            <a href=""
+                                                                class="btn btn-primary text-uppercase ps-5 pe-5 pt-2 pb-2"
+                                                                data-bs-toggle="modal" data-bs-target="#modal">enquire
+                                                                now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="contact1" role="tabpanel1"
+                                            aria-labelledby="contact-tab1">
+                                            <div id="floor-plans" class="pt-3 pb-3 pt-md-5 pb-md-5 bg-white">
+                                                <div class="container">
+                                                    <!-- <h2 class="text-center pt-2 pb-2">Floor Plans</h2> -->
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <div class="spotlight-group text-center m-1">
+                                                                <a class="spotlight"
+                                                                    href="./images/floor-plans/floor-plan-2.png"
+                                                                    data-description="Location Map"><img
+                                                                        src="./images/floor-plans/floor-plan-2.png"
+                                                                        alt="Location Map"
+                                                                        class="thumb-1 rounded img-fluid"></a>
+                                                                <h6 class="fw-bold text-center pt-2 pb-2">3BHK (3B - 3T)</h6>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4">
+                                                            <div class="spotlight-group text-center m-1">
+                                                                <a class="spotlight"
+                                                                    href="./images/floor-plans/floor-plan-3.png"
+                                                                    data-description="Location Map"><img
+                                                                        src="./images/floor-plans/floor-plan-3.png"
+                                                                        alt="Location Map"
+                                                                        class="thumb-1 rounded img-fluid"></a>
+                                                                <h6 class="fw-bold text-center pt-2 pb-2">3BHK (3B - 3T)</h6>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4">
+                                                            <div class="spotlight-group text-center m-1">
+                                                                <a class="spotlight"
+                                                                    href="./images/floor-plans/floor-plan-4.png"
+                                                                    data-description="Location Map"><img
+                                                                        src="./images/floor-plans/floor-plan-4.png"
+                                                                        alt="Location Map"
+                                                                        class="thumb-1 rounded img-fluid"></a>
+                                                                <h6 class="fw-bold text-center pt-2 pb-2">3BHK (3B - 2T)</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="contact2" role="tabpanel2"
+                                            aria-labelledby="contact-tab1">
+                                            <div id="floor-plans" class="pt-3 pb-3 pt-md-5 pb-md-5 bg-white">
+                                                <div class="container">
+                                                    <!-- <h2 class="text-center pt-2 pb-2">Floor Plans</h2> -->
+                                                    <div class="row">
+
+                                                        <div class="col-md-4">
+                                                            <div class="spotlight-group text-center m-1">
+                                                                <a class="spotlight"
+                                                                    href="./images/floor-plans/floor-plan-1.png"
+                                                                    data-description="Location Map"><img
+                                                                        src="./images/floor-plans/floor-plan-1.png"
+                                                                        alt="Location Map"
+                                                                        class="thumb-1 rounded img-fluid"></a>
+                                                                <h6 class="fw-bold text-center pt-2 pb-2">4BHK (3B - 3T + Studio)</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="amenities" class="pt-3 pb-3 pt-md-5 pb-md-5 ps-md-3 pe-md-3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="line position-relative text-center mb-5">
+                                        <h2 class="text-uppercase pb-2">Amenities</h2>
+                                        <span class="bg-danger position-absolute start-50 span-line"></span>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <h4 class="">Sports</h4>
+                                                <ul>
+                                                    <li>Badminton courts</li>
+                                                    <li>Squash court</li>
+                                                    <li>Indoor gymnasium</li>
+                                                    <li>Table tennis</li>
+                                                    <li>Basketball court</li>
+                                                    <li>Pool tables</li>
+                                                    <li>Billiards table</li>
+                                                    <li>Tennis court</li>
+                                                    <li>Skating rink</li>
+                                                    <li>Volleyball court</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <h4 class="">Health</h4>
+                                                <ul>
+                                                    <li>Indoor gymnasium</li>
+                                                    <li>Outdoor gym</li>
+                                                    <li>Jogging track</li>
+                                                    <li>Aerobics stud</li>
+                                                    <li>Steam & changing rooms</li>
+                                                    <li>Regular swimming pools & kids’ pool</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <h4 class="">Others</h4>
+                                                <ul>
+                                                    <li>Creche</li>
+                                                    <li>Kids’ play area</li>
+                                                    <li>Linear park</li>
+                                                    <li>Party halls</li>
+                                                    <li>Party lawn</li>
+                                                    <li>Pet park</li>
+                                                    <li>Amphitheatre</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <a href=""
+                                            class="btn btn-primary text-uppercase ps-5 pe-5 pt-2 pb-2">Enquire
+                                            Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="pricing" class="pt-3 pb-3 pt-md-5 pb-md-5">
+                        <div class="container">
+                            <h2 class="pt-2 pb-2 text-center">Pricing</h2>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="table-responsive-sm">
+                                        <table class="table text-center align-middle table-striped table-bordered">
+                                            <thead>
+                                                <tr class="bg-dark">
+                                                    <th class="text-center text-white">Type</th>
+                                                    <th class="text-center text-white">Area</th>
+                                                    <th class="text-center text-white">Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+
+                                                <tr>
+                                                    <td>3 BHK + 2T</td>
+                                                    <td>1348 - 1457 Sq.ft.</td>
+                                                    <td><a href="" class="btn btn-primary text-uppercase"
+                                                            data-bs-toggle="modal" data-bs-target="#modal">Price
+                                                            Breackup</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3 BHK + 3T</td>
+                                                    <td>1559 -1616 Sq.ft.</td>
+                                                    <td><a href="" class="btn btn-primary text-uppercase"
+                                                            data-bs-toggle="modal" data-bs-target="#modal">Price
+                                                            Breackup</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3 BHK + 3T (Large_</td>
+                                                    <td>1900 Sq.ft.</td>
+                                                    <td><a href="" class="btn btn-primary text-uppercase"
+                                                            data-bs-toggle="modal" data-bs-target="#modal">Price
+                                                            Breackup</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4 BHK (3B3T+Studio)</td>
+                                                    <td>2200 Sq.ft.</td>
+                                                    <td><a href="" class="btn btn-primary text-uppercase"
+                                                            data-bs-toggle="modal" data-bs-target="#modal">Price
+                                                            Breackup</a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="information" class="pt-3 pb-3 pt-md-3 pb-md-3 bg-light rounded">
+                        <div class="container">
+                            <div class="row bg-white shadow">
+                                <div class="col-md-8 border-dark border-start border-5 align-self-center">
+                                    <div class="p-2">
+                                        <h2>Need more information?</h2>
+                                        <p class="m-0">Don't hesitate to download the brochure to
+                                            know more details of this project.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 align-self-center">
+                                    <div class="text-center">
+                                        <a href="" class="btn btn-primary text-uppercase ps-5 pe-5 pt-2 pb-2"
+                                            data-bs-toggle="modal" data-bs-target="#modal">Download Brochure</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="virtual-tour" class="pt-3 pb-3 pt-md-5 pb-md-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-8">
+                                    <h2 class="text-center text-uppercase pt-2 pb-2">Virtual Tour</h2>
+                                    <div class="ratio ratio-16x9">
+                                        <iframe src="https://www.youtube.com/embed/1C0Eo1lJN-Y" title="YouTube video" allowfullscreen></iframe>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 bg-light">
+                    <div class="pt-3 pb-5 sticky-top custom1 bg-white shadow">
+                        <h4 class="text-uppercase text-center text-white bg-dark fw-bold p-2">Enquire Now</h4>
+                        <div class="form rounded p-2 w-100">
+
+                            <div class="pb-3">
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" name="name" id="name"
+                                        placeholder="name@example.com">
+                                    <label for="name"><i class="far fa-user fs-5 me-3"></i> Name</label>
+                                    <!-- <span id="name-info" class="text-danger"></span> -->
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="name@example.com">
+                                    <label for="email"><i class="far fa-envelope fs-5 me-3"></i> Email ID</label>
+                                    <!-- <span id="email-info" class="text-danger"></span> -->
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="tel" id="phone" class="form-control" name="phone"
+                                        placeholder="Phone No">
+                                    <label for="phone"></label>
+                                    <!-- <span id="phone-info" class="text-danger"></span> -->
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-sm btn-warning w-100 text-uppercase p-2"
+                                        onClick="sendContact();" name="submit" type="submit">Get Instant
+                                        Call Back</button>
+                                </div>
+                                <div id="mail-status"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="about-developer" class="pt-3 pb-3 pt-md-5 pb-md-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="line position-relative text-center mb-5">
+                            <h2 class="text-uppercase pb-2">About Developer</h2>
+                            <span class="bg-danger position-absolute start-50 span-line"></span>
+                        </div>
+                        <div class="">
+                            <p class="text-center">
+                                Our team at Assetz comprises over 200 professionals who bring outstanding expertise to their respective fields. We have picked the best talent in each field, the ones who leave no stone unturned while delivering the best possible service to you. The team also has an 11-year average of rich cross-industry skills across the board. We balance the need to surprise and push the envelope in a highly competitive market where stylistic trends and eye-catching fashion have a very short shelf life, with the demands of cost and investor confidence. A way to not succumb to this is to conceive architecture that expresses a sort of timelessness – responding to factors that are immutable to the site and the surrounding context and not to passing trends – in order to create something that cannot be replicated elsewhere.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer" class="pt-3 pb-3 pt-md-5 bg-dark">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <img src="./images/footer.png" alt="footer-logo" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <p class="text-justify text-white pt-2">
+                            Disclaimer : The content is for information purposes only and does not constitute an offer
+                            to
+                            avail of any service. Prices mentioned are subject to change without notice and properties
+                            mentioned are subject to availability. Images for representation purposes only. This is the
+                            official website of authorized marketing partner. We may also send updates to
+                            the mobile number/email id
+                            registered with us. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div id="li-ri-btn" class="">
+        <div class="right-fix-btn">
+            <a href="" class="btn btn-danger text-uppercase" data-bs-toggle="modal" data-bs-target="#modal">brochure
+            </a>
+        </div>
+        <!-- <div class="left-fix-btn">
+            <a href="" class="btn btn-danger text-uppercase" data-bs-toggle="modal" data-bs-target="#modal">Read More</a>
+        </div> -->
+    </div>
+
+    <div id="desktop-fix" class="position-realtive d-none d-md-block">
+        <div class="container">
+            <div class="d-flex flex-column justify-content-end mb-2 position-fixed custom">
+                <div class="mt-3 mb-3">
+                    <a href="tel:+918095999000" class="bg-primary p-3 rounded-circle m-2"><i
+                            class="fa fa-volume-control-phone text-white fs-5" aria-hidden="true"></i><span
+                            class="d-block d-md-none">Call</span></a>
+                </div>
+                <div class="mt-3 mb-3">
+                    <a href="https://wa.me/918095999000?text='Hi! I'm Interested In Asset Property At Whitefield, Bangalore. Please Share Details.'"
+                        target="_blank" class="bg-primary p-3 rounded-circle m-2"><i
+                            class="fab fa-whatsapp text-white fs-5" aria-hidden="true"></i><span
+                            class="d-block d-md-none">WhatsApp</span></a>
+                </div>
+                <div class="mt-3 mb-3">
+                    <a data-bs-toggle="modal" data-bs-target="#modal" class="bg-primary p-3 rounded-circle m-2"><i
+                            class="far fa-envelope-open text-white fs-5" aria-hidden="true"></i><span
+                            class="d-block d-md-none">Enquire</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mobile-fix" class="d-block d-md-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 bg-primary p-3">
+                    <div class="text-center">
+                        <a href="tel:+918095999000" class="bg-primary rounded-circle p-3"><i
+                                class="fa fa-volume-control-phone text-white fs-2" aria-hidden="true"></i><span
+                                class="d-none d-md-none">Call</span></a>
+                    </div>
+                </div>
+                <div class="col-4 bg-primary p-3">
+                    <div class="text-center">
+                        <a href="https://wa.me/918095999000?text='Hi! I'm Interested In Assentz Property, Whitefield, Bangalore. Please Share Details.'"
+                            target="_blank" class="bg-primary rounded-circle p-3"><i
+                                class="fab fa-whatsapp text-white fs-2" aria-hidden="true"></i><span
+                                class="d-none d-md-none">WhatsApp</span></a>
+                    </div>
+                </div>
+                <div class="col-4 bg-primary p-3">
+                    <div class="text-center">
+                        <a data-bs-toggle="modal" data-bs-target="#modal" class="bg-primary rounded-circle p-3"><i
+                                class="far fa-envelope-open text-white fs-2" aria-hidden="true"></i><span
+                                class="d-none d-md-none">Enquire</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">
+        Launch demo modal
+    </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="">
+                        <h4 class="text-uppercase text-center text-white bg-dark fw-bold p-2">Enquire Now</h4>
+                        <div class="form rounded p-2 w-100">
+                            <div class="text-center">
+                                <img src="./images/logo-1.png" alt="" class="img-fluid bg-dark">
+                            </div>
+
+                            <div class="pb-3">
+                                <div class="form-floating">
+                                    <input type="text"
+                                        class="form-control border-bottom border-top-0 border-start-0 border-end-0 border-dark"
+                                        name="avalon-name" id="avalon-name" placeholder="name@example.com">
+                                    <label for="avalon-name">Name</label>
+                                    <span id="avalon-name-info" class="text-danger"></span>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="email"
+                                        class="form-control border-bottom border-top-0 border-start-0 border-end-0 border-dark"
+                                        name="avalon-email" id="avalon-email" placeholder="name@example.com">
+                                    <label for="avalon-email">Email ID</label>
+                                    <span id="avalon-email-info" class="text-danger"></span>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="tel"
+                                        class="form-control border-bottom border-top-0 border-start-0 border-end-0 border-dark"
+                                        name="avalon-phone" id="avalon-phone" placeholder="name@example.com">
+                                    <label for="avalon-phone">Phone No.</label>
+                                    <span id="avalon-phone-info" class="text-danger"></span>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-sm btn-danger w-100 text-uppercase p-2"
+                                        onClick="sendAvalonContact();" name="submit" type="submit">Get Instant
+                                        Call Back</button>
+                                </div>
+                                <div id="avalon-mail-status"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"
+        integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="t-slider/js/jquery.min.js"></script>
+    <script type="text/javascript" src="t-slider/js/jquery.bxslider.js"></script>
+    <script src="spot-light/spotlight.bundle.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <!-- build:js js/main.min.js  -->
+    <script src="./js/main.js"></script>
+    <!-- endbuild -->
+
+    <script src="./countrycode/js/intlTelInput.js"></script>
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            // any initialisation options go here
+        });
+    </script>
+
+
+
+    <script id="__bs_script__">//<![CDATA[
+        document.write("<script async src='http://HOST:4000/browser-sync/browser-sync-client.js?v=2.26.13'><\/script>".replace("HOST", location.hostname));
+    //]]></script>
+</body>
+
+</html>
